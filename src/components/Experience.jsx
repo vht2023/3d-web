@@ -35,7 +35,7 @@ export const Experience = () => {
                 <boxGeometry />
                 <meshStandardMaterial color="white" />
             </mesh>
-            <mesh position-z={-2.5} position-y={0.9}>
+            <mesh position-z={-2.5} position-y={0.6} scale={[0.27, 0.3, 1]}>
                 <planeGeometry args={[viewport.width, viewport.height]} />
                 <meshBasicMaterial map={texture} />
             </mesh>
